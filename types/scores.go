@@ -11,23 +11,24 @@ type beatmapScore struct {
 }
 
 type Score struct {
-	Gamemode      uint8
-	OsuVersion    int32
-	BeatmapMD5    string
-	PlayerName    string
-	MD5           string
-	Hit300        uint16
-	Hit100        uint16
-	Hit50         uint16
-	HitGeki       uint16
-	HitKatu       uint16
-	HitMiss       uint16
-	Score         int32
-	MaxCombo      uint16
-	IsPerfect     bool
-	ModsBitSum    int32
-	LifeBar       string
-	DateTime      int64
-	ReplayData    []uint8
-	OnlineScoreID int64
+	Gamemode      uint8   `json:"gamemode"`
+	OsuVersion    int32   `json:"osuVersion"`
+	BeatmapMD5    string  `json:"beatmapMD5"`
+	PlayerName    string  `json:"playerName"`
+	MD5           string  `json:"scoreMD5"`
+	Hit300        uint16  `json:"hit300"`
+	Hit100        uint16  `json:"hit100"`
+	Hit50         uint16  `json:"hit50"`
+	HitGeki       uint16  `json:"hitGeki"`
+	HitKatu       uint16  `json:"hitKatu"`
+	HitMiss       uint16  `json:"hitMiss"`
+	Score         int32   `json:"score"`
+	MaxCombo      uint16  `json:"maxCombo"`
+	IsPerfect     bool    `json:"isPerfect"`
+	ModsBitSum    int32   `json:"modsBitSum"`
+	LifeBar       string  `json:"lifeBar"`
+	DateTime      int64   `json:"dateTime"`
+	ReplayData    []uint8 `json:"replayData"`
+	OnlineScoreID int64   `json:"onlineScoreID"`
 }
+
