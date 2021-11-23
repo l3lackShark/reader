@@ -42,4 +42,4 @@ func main() {
 		//handle error
 	}
   //a.OsuDB and a.ScoresDB should be populated with data at this point
-}```
+}
