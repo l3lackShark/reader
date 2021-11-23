@@ -7,10 +7,10 @@ type ScoresDB struct {
 
 type beatmapScore struct {
 	BeatmapMD5 string
-	Scores     []score
+	Scores     []Score
 }
 
-type score struct {
+type Score struct {
 	Gamemode      uint8
 	OsuVersion    int32
 	BeatmapMD5    string
