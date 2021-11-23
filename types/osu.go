@@ -6,10 +6,10 @@ type OsuDB struct {
 	IsAccountUnlocked bool
 	DateTime          int64
 	Nickname          string
-	BmInfo            []beatmapInfo
+	BmInfo            []BeatmapInfo
 }
 
-type beatmapInfo struct {
+type BeatmapInfo struct {
 	Artist                    string
 	ArtistU                   string
 	Title                     string
