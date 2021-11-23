@@ -1,7 +1,4 @@
-# reader
-osu database file format flexible reader
-
-#Example usage
+# Example usage
 
 ```go
 package main
